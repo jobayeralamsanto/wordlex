@@ -1,0 +1,103 @@
+header {
+    background-image: url("../image/Account-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  
+  .wallet-container {
+  background: #0504046b;
+  width: 80%;
+  color: #fff;
+  font-size: 15px;
+  padding: 20px 20px 20px;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 70%;
+  
+  }
+  
+  .txn-history {
+    text-align: left;
+  }
+  
+  .txn-list {
+    background-color: #fff;
+    padding: 8px 10px;
+    color: black;
+    font-size: 14px;
+    margin: 7px 0;
+  }
+  .investment {
+    background-color: #fff;
+    padding: 4px 10px;
+    color: black;
+    font-size: 14px;
+    margin: 7px 0;
+  }
+  .amount{
+      font-weight: bold;
+      font-size: 19px;
+  }
+  
+  .debit-amount {
+    color: #777;
+    float: right;
+    font-size: 19px;
+  }
+  .all-button {
+    list-style: none;
+  }
+  .all-button a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(250, 146, 9);
+  }
+  .all-button a{
+    width: 100%;
+  }
+  @media screen and (max-width: 1399px) {
+    .wallet-container{
+      height: 90%;
+    }
+  }
+  @media screen and (max-width: 991px){
+    .wallet-container {
+      height: 85%;
+        }
+    .bosterdown-content {
+      min-width: 430px;
+      margin-left: -405px;
+     }
+  }
+  @media screen and (max-width: 768px){
+    header {
+        height: 995px;
+    }
+    .wallet-container{
+      position: relative;
+      width: 360px;
+      height: 90%;
+      top:20%;
+    }
+    .programs {
+      padding: 5px 0px;
+  }
+  .deposit {
+    padding: 5px 44px;
+}
+.withdrow {
+  padding: 5px 33px;
+}
+.booster {
+  padding: 5px 42px;
+}
+.bosterdown-content {
+  min-width: 320px;
+  margin-left: -295px;
+}
+
+  }

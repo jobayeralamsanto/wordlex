@@ -1,0 +1,47 @@
+header {
+    background-image: url("../image/Contact-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+.contact{
+    background: #0504046b;
+    width: 80%;
+    margin-left: 85px;
+    margin-top: 70px;
+}
+form{
+    background: #5350500a; 
+    padding: 26px 26px;
+}
+.you-can{
+    padding-left: 28px;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 19px;
+    
+}
+.you-can h6{
+    color: #d9841a;
+}
+input{
+    width: 50%;
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 20px;
+}
+input:hover{
+    background:#d9841a;
+}
+@media screen and (max-width: 1399px) {
+    .wallet-container{
+      height: 90%;
+    }
+  }
+@media screen and (max-width: 768px){
+    .contact {
+     margin-left: 50px;
+     margin-top: 0px; 
+    }
+}

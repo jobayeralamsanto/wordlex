@@ -1,0 +1,154 @@
+header {
+  background-image: url("../image/News-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 100%;
+}
+
+#carouselExampleControls {
+  width: 80%;
+  margin-top: 25px;
+  margin-left: 105px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  margin-top: 250px;
+}
+.bottom {
+  width: 80%;
+  background: hsla(0, 11%, 2%, 0.42);
+  margin-left: 105px;
+  text-align: left;
+  margin-top: 40%;
+}
+.bitfinex {
+  font-size: 19px;
+  padding: 20px;
+  padding-bottom: 0;
+  color: #f2efef;
+  
+}
+
+.services .service-items .read-more-cont{
+ display: none;
+}
+
+
+
+.services .service-items .item-inner .btn{
+  background: none;
+  border: none;
+  color: #dd6017;
+  font-size: 19px;
+  padding-bottom: 20px;
+  padding-top: 0px;
+  padding-left: 35px;
+}
+
+.popup-box{
+ position: fixed;
+ left: 72%;
+ top:53%;
+ background-color: rgba(0,0,0,0.5);
+ z-index: 500;
+ visibility: hidden;
+ opacity:0;
+ transition: all 0.5s ease-in-out;
+}
+.popup-box.open{
+ visibility: visible;
+ opacity:1;	
+}
+.popup-box .popup-content{
+  background-color: black;
+  width: 617px;
+  height: 445px;
+  position: absolute;
+ 
+  transform: translate(-48%,-58%);
+  border-radius: 8px;
+}
+
+.popup-box .popup-header{
+ padding: 15px 40px 15px 15px;
+}
+
+.popup-box .popup-header .popup-close-icon{
+ position: absolute;
+   height: 30px;
+   width: 30px;
+   text-align: center;
+   color: #fff;
+   font-size: 28px;
+   line-height: 30px;
+   right: 8px;
+   top: 5px;
+   cursor: pointer;
+}
+.popup-box .popup-body{
+ padding: 15px;
+ max-height: 300px;
+ overflow-y: auto;
+}
+
+.popup-box .popup-body p{
+ font-size: 20px;
+ color:#aaa5a5;
+ margin:0 0 15px;
+}
+.popup-footer button{
+  background: black;
+}
+::-webkit-scrollbar {
+  width: 30px;
+  
+}
+
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-image: url("../image/Scroll.png");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  height: 5px;
+}
+
+
+
+/*responsive*/
+@media(max-width: 991px){
+  #carouselExampleControls{
+    margin-left: 25px;
+  }
+  .bottom {
+    margin-left: 25px;
+  }
+}
+
+@media(max-width: 767px){
+
+  #carouselExampleControls {
+    margin-top: 0px;
+    margin-left: 50px;
+}
+.bottom {
+  
+  margin-left: 50px;
+}
+.popup-box .popup-content {
+  background-color: black;
+  width: 373px;
+  position: relative;
+  left: -40%;
+  top: 12%;
+  transform: translate(-50%,-50%);
+  border-radius: 8px;
+}
+}
+
+
+
+
+
+
